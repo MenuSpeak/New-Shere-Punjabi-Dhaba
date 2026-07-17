@@ -1282,15 +1282,23 @@ text-decoration:none;
 
    <div class="tabs-scroll">
 <button class="tab active" data-cat="all">🍽️ All Items</button>
-<button class="tab" data-cat="Soup">🥣 Soup</button>
+<button class="tab" data-cat="Breakfast">🍳 Breakfast</button>
+<button class="tab" data-cat="Fast Food">🍔 Fast Food</button>
+<button class="tab" data-cat="Chines">🍜 Chines</button>
 <button class="tab" data-cat="Starters">🍗 Starters</button>
-<button class="tab" data-cat="Noodles">🍜 Noodles</button>
-<button class="tab" data-cat="Rolls">🌯 Rolls</button>
-<button class="tab" data-cat="Tandoor">🍢 Tandoor</button>
-<button class="tab" data-cat="Indian Curries">🍲 Indian Curries</button>
-<button class="tab" data-cat="Biryani & Rice">🥘 Biryani & Rice</button>
-<button class="tab" data-cat="Roti & Naan">🫓 Roti & Naan</button>
-   </div>  
+<button class="tab" data-cat="Main Course">🍲 Main Course</button>
+<button class="tab" data-cat="Kofta">🍛 Kofta</button>
+<button class="tab" data-cat="Mix Veg">🥗 Mix Veg</button>
+<button class="tab" data-cat="Paneer">🧀 Paneer</button>
+<button class="tab" data-cat="Special">⭐ Punjabi Special</button>
+<button class="tab" data-cat="Rice">🍚 Rice</button>
+<button class="tab" data-cat="Roti">🫓 Roti & Naan</button>
+<button class="tab" data-cat="Thali">🍱 Thali</button>
+<button class="tab" data-cat="Papad">🍘 Papad</button>
+<button class="tab" data-cat="Sweets">🥞 Sweets</button>
+<button class="tab" data-cat="Beverages">🥤 Beverages</button>
+<button class="tab" data-cat="Mineral Water">💧 Mineral Water</button>
+        </div>  
                 </div>
             </div>
 
@@ -1436,11 +1444,164 @@ text-decoration:none;
         const data = [
 
 
+{"id": 1, "cat": "Breakfast", "name": "Poha | पोहा", "price": "Rs. 50", "desc": "Poha.", "tags": ["Veg", "Breakfast"], "img": "img/poha.jpeg"},
+{"id": 2, "cat": "Breakfast", "name": "Idli Sambar | इडली सांबर", "price": "Rs. 60", "desc": "Idli Sambar.", "tags": ["Veg", "Breakfast"], "img": "img/idli_sambar.jpeg"},
+{"id": 3, "cat": "Breakfast", "name": "Vada Sambar | वडा सांबर", "price": "Rs. 60", "desc": "Vada Sambar.", "tags": ["Veg", "Breakfast"], "img": "img/vada_sambar.jpeg"},
+{"id": 4, "cat": "Breakfast", "name": "Misal Pav | मिसळ पाव", "price": "Rs. 100", "desc": "Misal Pav.", "tags": ["Veg", "Breakfast"], "img": "img/misal_pav.jpeg"},
+{"id": 5, "cat": "Breakfast", "name": "Puri Bhaji | पुरी भाजी", "price": "Rs. 100", "desc": "Puri Bhaji.", "tags": ["Veg", "Breakfast"], "img": "img/puri_bhaji.jpeg"},
+{"id": 6, "cat": "Breakfast", "name": "Chole Bhature | छोले भटूरे", "price": "Rs. 120", "desc": "Chole Bhature.", "tags": ["Veg", "Breakfast"], "img": "img/chole_bhature.jpeg"},
+{"id": 7, "cat": "Breakfast", "name": "Plain Paratha + Dahi | प्लेन पराठा + (दही)", "price": "Rs. 60", "desc": "Plain Paratha with Dahi.", "tags": ["Veg", "Breakfast"], "img": "img/plain_paratha_dahi.jpeg"},
+{"id": 8, "cat": "Breakfast", "name": "Gobi Paratha + Dahi | गोबी पराठा + (दही)", "price": "Rs. 100", "desc": "Gobi Paratha with Dahi.", "tags": ["Veg", "Breakfast"], "img": "img/gobi_paratha_dahi.jpeg"},
+{"id": 9, "cat": "Breakfast", "name": "Methi Paratha + Dahi | मेथी पराठा + (दही)", "price": "Rs. 100", "desc": "Methi Paratha with Dahi.", "tags": ["Veg", "Breakfast"], "img": "img/methi_paratha_dahi.jpeg"},
+{"id": 10, "cat": "Breakfast", "name": "Missa Paratha + Dahi | मिस्सा पराठा + (दही)", "price": "Rs. 100", "desc": "Missa Paratha with Dahi.", "tags": ["Veg", "Breakfast"], "img": "img/missa_paratha_dahi.jpeg"},
+{"id": 11, "cat": "Breakfast", "name": "Aloo Paratha + Dahi | आलू पराठा + (दही)", "price": "Rs. 100", "desc": "Aloo Paratha with Dahi.", "tags": ["Veg", "Breakfast"], "img": "img/aloo_paratha_dahi.jpeg"},
+{"id": 12, "cat": "Breakfast", "name": "Muli Paratha + Dahi | मुली पराठा + (दही)", "price": "Rs. 100", "desc": "Muli Paratha with Dahi.", "tags": ["Veg", "Breakfast"], "img": "img/muli_paratha_dahi.jpeg"},
+{"id": 13, "cat": "Breakfast", "name": "Paneer Paratha + Dahi | पनीर पराठा + (दही)", "price": "Rs. 130", "desc": "Paneer Paratha with Dahi.", "tags": ["Veg", "Breakfast"], "img": "img/paneer_paratha_dahi.jpeg"},
+{"id": 14, "cat": "Fast Food", "name": "Pav Bhaji | पावभाजी", "price": "Rs. 100", "desc": "Pav Bhaji.", "tags": ["Veg", "Fast Food"], "img": "img/pav_bhaji.jpeg"},
+{"id": 15, "cat": "Fast Food", "name": "Masala Dosa | मसाला डोसा", "price": "Rs. 60", "desc": "Masala Dosa.", "tags": ["Veg", "Fast Food"], "img": "img/masala_dosa.jpeg"},
+{"id": 16, "cat": "Fast Food", "name": "Paper Dosa | पेपर डोसा", "price": "Rs. 70", "desc": "Paper Dosa.", "tags": ["Veg", "Fast Food"], "img": "img/paper_dosa.jpeg"},
+{"id": 17, "cat": "Fast Food", "name": "Grill Sandwich (2 Pcs) | ग्रिल सँडविच (२ पिस)", "price": "Rs. 99", "desc": "Grill Sandwich 2 Pcs.", "tags": ["Veg", "Fast Food"], "img": "img/grill_sandwich.jpeg"},
+{"id": 18, "cat": "Fast Food", "name": "Cheese Pizza (Small) | चीज पिझ्झा (स्मॉल)", "price": "Rs. 149", "desc": "Cheese Pizza Small.", "tags": ["Veg", "Fast Food"], "img": "img/cheese_pizza_small.jpeg"},
+{"id": 19, "cat": "Fast Food", "name": "Cheese Pizza (Big) | चीज पिझ्झा (बिग)", "price": "Rs. 199", "desc": "Cheese Pizza Big.", "tags": ["Veg", "Fast Food"], "img": "img/cheese_pizza_big.jpeg"},
+{"id": 20, "cat": "Fast Food", "name": "Paneer Pizza (Small) | पनीर पिझ्झा (स्मॉल)", "price": "Rs. 199", "desc": "Paneer Pizza Small.", "tags": ["Veg", "Fast Food"], "img": "img/paneer_pizza_small.jpeg"},
+{"id": 21, "cat": "Fast Food", "name": "Paneer Pizza (Big) | पनीर पिझ्झा (बिग)", "price": "Rs. 229", "desc": "Paneer Pizza Big.", "tags": ["Veg", "Fast Food"], "img": "img/paneer_pizza_big.jpeg"},
+{"id": 22, "cat": "Fast Food", "name": "Mushroom Pizza (Small) | मशरूम पिझ्झा (स्मॉल)", "price": "Rs. 199", "desc": "Mushroom Pizza Small.", "tags": ["Veg", "Fast Food"], "img": "img/mushroom_pizza_small.jpeg"},
+{"id": 23, "cat": "Fast Food", "name": "Mushroom Pizza (Big) | मशरूम पिझ्झा (बिग)", "price": "Rs. 229", "desc": "Mushroom Pizza Big.", "tags": ["Veg", "Fast Food"], "img": "img/mushroom_pizza_big.jpeg"},
+{"id": 24, "cat": "Fast Food", "name": "Grill Burger | ग्रिल बर्गर", "price": "Rs. 119", "desc": "Grill Burger.", "tags": ["Veg", "Fast Food"], "img": "img/grill_burger.jpeg"},
+{"id": 25, "cat": "Fast Food", "name": "Stick Potato | स्टिक पोटॅटो", "price": "Rs. 60", "desc": "Stick Potato.", "tags": ["Veg", "Fast Food"], "img": "img/stick_potato.jpeg"},
+{"id": 26, "cat": "Fast Food", "name": "French Fries | फ्रेंच फ्राईज", "price": "Rs. 99", "desc": "French Fries.", "tags": ["Veg", "Fast Food"], "img": "img/french_fries.jpeg"},
+{"id": 27, "cat": "Fast Food", "name": "Pasta (Red Sauce) | पास्ता (रेड सॉस)", "price": "Rs. 139", "desc": "Red Sauce Pasta.", "tags": ["Veg", "Fast Food"], "img": "img/pasta_red_sauce.jpeg"},
+{"id": 28, "cat": "Fast Food", "name": "Pasta (White Sauce) | पास्ता (व्हाईट सॉस)", "price": "Rs. 139", "desc": "White Sauce Pasta.", "tags": ["Veg", "Fast Food"], "img": "img/pasta_white_sauce.jpeg"},
+{"id": 29, "cat": "Chines", "name": "Momos (6 Pcs) | मोमोज (६ पिस)", "price": "Rs. 139", "desc": "Momos 6 Pieces.", "tags": ["Veg", "Chines"], "img": "img/momos.jpeg"},
+{"id": 30, "cat": "Chines", "name": "Soyabean Chilli | सोयाबीन चिल्ली", "price": "Rs. 129", "desc": "Soyabean Chilli.", "tags": ["Veg", "Chines"], "img": "img/soyabean_chilli.jpeg"},
+{"id": 31, "cat": "Chines", "name": "Veg Manchurian | व्हेज मंचुरियन", "price": "Rs. 149", "desc": "Veg Manchurian.", "tags": ["Veg", "Chines"], "img": "img/veg_manchurian.jpeg"},
+{"id": 32, "cat": "Chines", "name": "Veg Hakka Noodles | व्हेज हक्का नूडल्स", "price": "Rs. 129", "desc": "Veg Hakka Noodles.", "tags": ["Veg", "Chines"], "img": "img/veg_hakka_noodles.jpeg"},
+{"id": 33, "cat": "Chines", "name": "Chines Bhel | चायनीज भेल", "price": "Rs. 129", "desc": "Chines Bhel.", "tags": ["Veg", "Chines"], "img": "img/chines_bhel.jpeg"},
+{"id": 34, "cat": "Chines", "name": "Spring Roll | स्प्रिंग रोल", "price": "Rs. 119", "desc": "Spring Roll.", "tags": ["Veg", "Chines"], "img": "img/spring_roll.jpeg"},
+{"id": 35, "cat": "Chines", "name": "Paneer Chilli | पनीर चिल्ली", "price": "Rs. 219", "desc": "Paneer Chilli.", "tags": ["Veg", "Chines"], "img": "img/paneer_chilli.jpeg"},
+{"id": 36, "cat": "Chines", "name": "Triple Schezwan Fried Rice | ट्रीपल शेजवान फ्राईड राईस", "price": "Rs. 199", "desc": "Triple Schezwan Fried Rice.", "tags": ["Veg", "Chines"], "img": "img/triple_schezwan_fried_rice.jpeg"},
+{"id": 37, "cat": "Starters", "name": "Manchow Soup | मनचाव सूप", "price": "Rs. 99", "desc": "Manchow Soup.", "tags": ["Veg", "Starters"], "img": "img/manchow_soup.jpeg"},
+{"id": 38, "cat": "Starters", "name": "Tomato Soup | टोमॅटो सूप", "price": "Rs. 99", "desc": "Tomato Soup.", "tags": ["Veg", "Starters"], "img": "img/tomato_soup.jpeg"},
+{"id": 39, "cat": "Starters", "name": "Sweet Corn Soup | स्वीट कॉर्न सूप", "price": "Rs. 119", "desc": "Sweet Corn Soup.", "tags": ["Veg", "Starters"], "img": "img/sweet_corn_soup.jpeg"},
+{"id": 40, "cat": "Starters", "name": "Veg Lollipop | व्हेज लॉलीपॉप", "price": "Rs. 139", "desc": "Veg Lollipop.", "tags": ["Veg", "Starters"], "img": "img/veg_lollipop.jpeg"},
+{"id": 41, "cat": "Starters", "name": "Hara Bhara Kabab | हराभरा कबाब", "price": "Rs. 139", "desc": "Hara Bhara Kabab.", "tags": ["Veg", "Starters"], "img": "img/hara_bhara_kabab.jpeg"},
+{"id": 42, "cat": "Starters", "name": "Paneer Tikka (Dry) | पनीर टिक्का (ड्राय)", "price": "Rs. 229", "desc": "Paneer Tikka Dry.", "tags": ["Veg", "Starters"], "img": "img/paneer_tikka_dry.jpeg"},
+{"id": 43, "cat": "Sweets", "name": "Kheer (Rice) | खीर (चावल)", "price": "Rs. 119", "desc": "Rice Kheer.", "tags": ["Veg", "Sweets"], "img": "img/kheer_rice.jpeg"},
+{"id": 44, "cat": "Sweets", "name": "Kheer (Sevai) | खीर (सेवई)", "price": "Rs. 119", "desc": "Sevai Kheer.", "tags": ["Veg", "Sweets"], "img": "img/kheer_sevai.jpeg"},
+{"id": 45, "cat": "Sweets", "name": "Gajar Ka Halwa | गाजर का हलवा", "price": "Rs. 119", "desc": "Gajar Ka Halwa.", "tags": ["Veg", "Sweets"], "img": "img/gajar_halwa.jpeg"},
+{"id": 46, "cat": "Sweets", "name": "Gulab Jamun (2 Pcs) | गुलाब जामुन (२ पिस)", "price": "Rs. 40", "desc": "Gulab Jamun 2 Pcs.", "tags": ["Veg", "Sweets"], "img": "img/gulab_jamun.jpeg"},
+{"id": 47, "cat": "Beverages", "name": "Mattha | मठ्ठा", "price": "Rs. 30", "desc": "Mattha.", "tags": ["Veg", "Beverages"], "img": "img/mattha.jpeg"},
+{"id": 48, "cat": "Beverages", "name": "Punjabi Lassi | पंजाबी लस्सी", "price": "Rs. 70", "desc": "Punjabi Lassi.", "tags": ["Veg", "Beverages"], "img": "img/punjabi_lassi.jpeg"},
+{"id": 49, "cat": "Beverages", "name": "Rose Lassi | रोज लस्सी", "price": "Rs. 80", "desc": "Rose Lassi.", "tags": ["Veg", "Beverages"], "img": "img/rose_lassi.jpeg"},
+{"id": 50, "cat": "Beverages", "name": "Cold Coffee | कोल्ड कॉफी", "price": "Rs. 100", "desc": "Cold Coffee.", "tags": ["Veg", "Beverages"], "img": "img/cold_coffee.jpeg"},
+{"id": 51, "cat": "Beverages", "name": "Dahi | दही", "price": "Rs. 70", "desc": "Dahi.", "tags": ["Veg", "Beverages"], "img": "img/dahi.jpeg"},
+{"id": 52, "cat": "Beverages", "name": "Chai | चाय", "price": "Rs. 20", "desc": "Chai.", "tags": ["Veg", "Beverages"], "img": "img/chai.jpeg"},
+{"id": 53, "cat": "Beverages", "name": "Coffee | कॉफी", "price": "Rs. 30", "desc": "Coffee.", "tags": ["Veg", "Beverages"], "img": "img/coffee.jpeg"},
+{"id": 54, "cat": "Main Course", "name": "Jeera Dal | जीरा दाल", "price": "Rs. 129", "desc": "Jeera Dal.", "tags": ["Veg", "Main Course"], "img": "img/jeera_dal.jpeg"},
+{"id": 55, "cat": "Main Course", "name": "Dal Fry | दाल फ्राय", "price": "Rs. 139", "desc": "Dal Fry.", "tags": ["Veg", "Main Course"], "img": "img/dal_fry.jpeg"},
+{"id": 56, "cat": "Main Course", "name": "Dal Tadka | दाल तडका", "price": "Rs. 149", "desc": "Dal Tadka.", "tags": ["Veg", "Main Course"], "img": "img/dal_tadka.jpeg"},
+{"id": 57, "cat": "Main Course", "name": "Butter Dal | बटर दाल", "price": "Rs. 149", "desc": "Butter Dal.", "tags": ["Veg", "Main Course"], "img": "img/butter_dal.jpeg"},
+{"id": 58, "cat": "Main Course", "name": "Dal Tomato | दाल टमाटर", "price": "Rs. 139", "desc": "Dal Tomato.", "tags": ["Veg", "Main Course"], "img": "img/dal_tomato.jpeg"},
+{"id": 59, "cat": "Main Course", "name": "Jain Dal | जैन दाल", "price": "Rs. 149", "desc": "Jain Dal.", "tags": ["Veg", "Main Course"], "img": "img/jain_dal.jpeg"},
+{"id": 60, "cat": "Main Course", "name": "Udad Chana Dal | उडद चना दाल", "price": "Rs. 149", "desc": "Udad Chana Dal.", "tags": ["Veg", "Main Course"], "img": "img/udad_chana_dal.jpeg"},
+{"id": 61, "cat": "Main Course", "name": "Shev Masala | शेव मसाला", "price": "Rs. 149", "desc": "Shev Masala.", "tags": ["Veg", "Main Course"], "img": "img/shev_masala.jpeg"},
+{"id": 62, "cat": "Main Course", "name": "Shev Tomato | शेव टमाटर", "price": "Rs. 149", "desc": "Shev Tomato.", "tags": ["Veg", "Main Course"], "img": "img/shev_tomato.jpeg"},
+{"id": 63, "cat": "Main Course", "name": "Dudh Shev Bhaji | दूध शेव भाजी", "price": "Rs. 149", "desc": "Dudh Shev Bhaji.", "tags": ["Veg", "Main Course"], "img": "img/dudh_shev_bhaji.jpeg"},
+{"id": 64, "cat": "Main Course", "name": "Tomato Chatni | टमाटर चटणी", "price": "Rs. 179", "desc": "Tomato Chatni.", "tags": ["Veg", "Main Course"], "img": "img/tomato_chatni.jpeg"},
+{"id": 65, "cat": "Main Course", "name": "Dal Methi | दाल मेथी", "price": "Rs. 159", "desc": "Dal Methi.", "tags": ["Veg", "Main Course"], "img": "img/dal_methi.jpeg"},
+{"id": 66, "cat": "Main Course", "name": "Lasun Methi | लसुन मेथी", "price": "Rs. 169", "desc": "Lasun Methi.", "tags": ["Veg", "Main Course"], "img": "img/lasun_methi.jpeg"},
+{"id": 67, "cat": "Main Course", "name": "Malai Methi | मलाई मेथी", "price": "Rs. 169", "desc": "Malai Methi.", "tags": ["Veg", "Main Course"], "img": "img/malai_methi.jpeg"},
+{"id": 68, "cat": "Main Course", "name": "Methi Matar | मेथी मटर", "price": "Rs. 169", "desc": "Methi Matar.", "tags": ["Veg", "Main Course"], "img": "img/methi_matar.jpeg"},
+{"id": 69, "cat": "Main Course", "name": "Shengdana Methi | शेंगदाना मेथी", "price": "Rs. 159", "desc": "Shengdana Methi.", "tags": ["Veg", "Main Course"], "img": "img/shengdana_methi.jpeg"},
+{"id": 70, "cat": "Main Course", "name": "Aloo Methi | आलू मेथी", "price": "Rs. 149", "desc": "Aloo Methi.", "tags": ["Veg", "Main Course"], "img": "img/aloo_methi.jpeg"},
+{"id": 71, "cat": "Main Course", "name": "Shevga Masala | शेवगा मसाला", "price": "Rs. 169", "desc": "Shevga Masala.", "tags": ["Veg", "Main Course"], "img": "img/shevga_masala.jpeg"},
+{"id": 72, "cat": "Main Course", "name": "Soyabean Masala | सोयाबीन मसाला", "price": "Rs. 149", "desc": "Soyabean Masala.", "tags": ["Veg", "Main Course"], "img": "img/soyabean_masala.jpeg"},
+{"id": 73, "cat": "Main Course", "name": "Aloo Gobi (Dry) | आलू गोबी (ड्राय)", "price": "Rs. 149", "desc": "Aloo Gobi Dry.", "tags": ["Veg", "Main Course"], "img": "img/aloo_gobi_dry.jpeg"},
+{"id": 74, "cat": "Main Course", "name": "Aloo Gobi (Gravy) | आलू गोबी (ग्रेव्ही)", "price": "Rs. 149", "desc": "Aloo Gobi Gravy.", "tags": ["Veg", "Main Course"], "img": "img/aloo_gobi_gravy.jpeg"},
+{"id": 75, "cat": "Main Course", "name": "Dum Aloo | दम आलू", "price": "Rs. 159", "desc": "Dum Aloo.", "tags": ["Veg", "Main Course"], "img": "img/dum_aloo.jpeg"},
+{"id": 76, "cat": "Main Course", "name": "Baingan Masala | बैंगन मसाला", "price": "Rs. 139", "desc": "Baingan Masala.", "tags": ["Veg", "Main Course"], "img": "img/baingan_masala.jpeg"},
+{"id": 77, "cat": "Main Course", "name": "Baingan Bharta | बैंगन भरता", "price": "Rs. 149", "desc": "Baingan Bharta.", "tags": ["Veg", "Main Course"], "img": "img/baingan_bharta.jpeg"},
+{"id": 78, "cat": "Main Course", "name": "Matki Masala | मटकी मसाला", "price": "Rs. 149", "desc": "Matki Masala.", "tags": ["Veg", "Main Course"], "img": "img/matki_masala.jpeg"},
+{"id": 79, "cat": "Main Course", "name": "Chana Masala | चना मसाला", "price": "Rs. 149", "desc": "Chana Masala.", "tags": ["Veg", "Main Course"], "img": "img/chana_masala.jpeg"},
+{"id": 80, "cat": "Main Course", "name": "Rajma | राजमा", "price": "Rs. 149", "desc": "Rajma.", "tags": ["Veg", "Main Course"], "img": "img/rajma.jpeg"},
+{"id": 81, "cat": "Main Course", "name": "Bhendi Fry | भेंडी फ्राय", "price": "Rs. 149", "desc": "Bhendi Fry.", "tags": ["Veg", "Main Course"], "img": "img/bhendi_fry.jpeg"},
+{"id": 82, "cat": "Main Course", "name": "Bhendi Masala | भेंडी मसाला", "price": "Rs. 149", "desc": "Bhendi Masala.", "tags": ["Veg", "Main Course"], "img": "img/bhendi_masala.jpeg"},
+{"id": 83, "cat": "Main Course", "name": "Besan | बेसन", "price": "Rs. 139", "desc": "Besan.", "tags": ["Veg", "Main Course"], "img": "img/besan.jpeg"},
+{"id": 84, "cat": "Main Course", "name": "Kadhi Pakoda | कढी पकोडा", "price": "Rs. 139", "desc": "Kadhi Pakoda.", "tags": ["Veg", "Main Course"], "img": "img/kadhi_pakoda.jpeg"},
+{"id": 85, "cat": "Main Course", "name": "Patodi | पातोडी", "price": "Rs. 149", "desc": "Patodi.", "tags": ["Veg", "Main Course"], "img": "img/patodi.jpeg"},
+{"id": 86, "cat": "Main Course", "name": "Plain Palak | प्लेन पालक", "price": "Rs. 149", "desc": "Plain Palak.", "tags": ["Veg", "Main Course"], "img": "img/plain_palak.jpeg"},
+{"id": 87, "cat": "Main Course", "name": "Palak Tomato | पालक टमाटर", "price": "Rs. 149", "desc": "Palak Tomato.", "tags": ["Veg", "Main Course"], "img": "img/palak_tomato.jpeg"},
+{"id": 88, "cat": "Main Course", "name": "Dal Palak | दाल पालक", "price": "Rs. 149", "desc": "Dal Palak.", "tags": ["Veg", "Main Course"], "img": "img/dal_palak.jpeg"},
+{"id": 89, "cat": "Kofta", "name": "Veg Kofta | व्हेज कोफ्ता", "price": "Rs. 199", "desc": "Veg Kofta.", "tags": ["Veg", "Kofta"], "img": "img/veg_kofta.jpeg"},
+{"id": 90, "cat": "Kofta", "name": "Paneer Kofta | पनीर कोफ्ता", "price": "Rs. 219", "desc": "Paneer Kofta.", "tags": ["Veg", "Kofta"], "img": "img/paneer_kofta.jpeg"},
+{"id": 91, "cat": "Kofta", "name": "Malai Kofta | मलाई कोफ्ता", "price": "Rs. 219", "desc": "Malai Kofta.", "tags": ["Veg", "Kofta"], "img": "img/malai_kofta.jpeg"},
+{"id": 92, "cat": "Kofta", "name": "Mushroom Masala | मशरूम मसाला", "price": "Rs. 199", "desc": "Mushroom Masala.", "tags": ["Veg", "Kofta"], "img": "img/mushroom_masala.jpeg"},
+{"id": 93, "cat": "Kofta", "name": "Kaju Curry | काजू करी", "price": "Rs. 219", "desc": "Kaju Curry.", "tags": ["Veg", "Kofta"], "img": "img/kaju_curry.jpeg"},
+{"id": 94, "cat": "Kofta", "name": "Kaju Paneer Masala | काजू पनीर मसाला", "price": "Rs. 229", "desc": "Kaju Paneer Masala.", "tags": ["Veg", "Kofta"], "img": "img/kaju_paneer_masala.jpeg"},
+{"id": 95, "cat": "Kofta", "name": "Kaju Singapuri | काजू सिंगापुरी", "price": "Rs. 239", "desc": "Kaju Singapuri.", "tags": ["Veg", "Kofta"], "img": "img/kaju_singapuri.jpeg"},
+{"id": 96, "cat": "Mix Veg", "name": "Mix Veg (Curry) | मिक्स व्हेज (करी)", "price": "Rs. 159", "desc": "Mix Veg Curry.", "tags": ["Veg", "Mix Veg"], "img": "img/mix_veg_curry.jpeg"},
+{"id": 97, "cat": "Mix Veg", "name": "Mix Veg (Dry) | मिक्स व्हेज (ड्राय)", "price": "Rs. 179", "desc": "Mix Veg Dry.", "tags": ["Veg", "Mix Veg"], "img": "img/mix_veg_dry.jpeg"},
+{"id": 98, "cat": "Mix Veg", "name": "Veg Kolhapuri | व्हेज कोल्हापूरी", "price": "Rs. 189", "desc": "Veg Kolhapuri.", "tags": ["Veg", "Mix Veg"], "img": "img/veg_kolhapuri.jpeg"},
+{"id": 99, "cat": "Mix Veg", "name": "Veg Maratha | व्हेज मराठा", "price": "Rs. 199", "desc": "Veg Maratha.", "tags": ["Veg", "Mix Veg"], "img": "img/veg_maratha.jpeg"},
+{"id": 100, "cat": "Mix Veg", "name": "Veg Tawa | व्हेज तवा", "price": "Rs. 179", "desc": "Veg Tawa.", "tags": ["Veg", "Mix Veg"], "img": "img/veg_tawa.jpeg"},
+{"id": 101, "cat": "Mix Veg", "name": "Veg Amritsari | व्हेज अमृतसरी", "price": "Rs. 179", "desc": "Veg Amritsari.", "tags": ["Veg", "Mix Veg"], "img": "img/veg_amritsari.jpeg"},
+{"id": 102, "cat": "Mix Veg", "name": "Veg Tiranga | व्हेज तिरंगा", "price": "Rs. 249", "desc": "Veg Tiranga.", "tags": ["Veg", "Mix Veg"], "img": "img/veg_tiranga.jpeg"},
+{"id": 103, "cat": "Mix Veg", "name": "Veg Diwani (Plate) | व्हेज दिवाणी (प्लेट)", "price": "Rs. 199", "desc": "Veg Diwani Plate.", "tags": ["Veg", "Mix Veg"], "img": "img/veg_diwani_plate.jpeg"},
+{"id": 104, "cat": "Mix Veg", "name": "Veg Diwani (Handi) | व्हेज दिवाणी (हंडी)", "price": "Rs. 349", "desc": "Veg Diwani Handi.", "tags": ["Veg", "Mix Veg"], "img": "img/veg_diwani_handi.jpeg"},
+{"id": 105, "cat": "Special", "name": "Sarso Da Saag Makke Di Roti (3 Pcs) | सरसो दा साग मक्के दी रोटी (३ पिस)", "price": "Rs. 299", "desc": "Sarso Da Saag with 3 Pcs Makke Di Roti.", "tags": ["Veg", "Special"], "img": "img/sarso_da_saag_makke_di_roti.jpeg"},
+{"id": 106, "cat": "Special", "name": "Dal Makhani | दाल मखनी", "price": "Rs. 179", "desc": "Dal Makhani.", "tags": ["Veg", "Special"], "img": "img/dal_makhani.jpeg"},
+{"id": 107, "cat": "Paneer", "name": "Palak Paneer | पालक पनीर", "price": "Rs. 199", "desc": "Palak Paneer.", "tags": ["Veg", "Paneer"], "img": "img/palak_paneer.jpeg"},
+{"id": 108, "cat": "Paneer", "name": "Paneer Masala | पनीर मसाला", "price": "Rs. 219", "desc": "Paneer Masala.", "tags": ["Veg", "Paneer"], "img": "img/paneer_masala.jpeg"},
+{"id": 109, "cat": "Paneer", "name": "Paneer Butter Masala | पनीर बटर मसाला", "price": "Rs. 219", "desc": "Paneer Butter Masala.", "tags": ["Veg", "Paneer"], "img": "img/paneer_butter_masala.jpeg"},
+{"id": 110, "cat": "Paneer", "name": "Paneer Tikka Masala (Gravy) | पनीर टिक्का मसाला (ग्रेव्ही)", "price": "Rs. 219", "desc": "Paneer Tikka Masala Gravy.", "tags": ["Veg", "Paneer"], "img": "img/paneer_tikka_masala_gravy.jpeg"},
+{"id": 111, "cat": "Paneer", "name": "Matar Paneer | मटर पनीर", "price": "Rs. 219", "desc": "Matar Paneer.", "tags": ["Veg", "Paneer"], "img": "img/matar_paneer.jpeg"},
+{"id": 112, "cat": "Paneer", "name": "Paneer Angara | पनीर अंगारा", "price": "Rs. 239", "desc": "Paneer Angara.", "tags": ["Veg", "Paneer"], "img": "img/paneer_angara.jpeg"},
+{"id": 113, "cat": "Paneer", "name": "Paneer Akbari | पनीर अकबरी", "price": "Rs. 239", "desc": "Paneer Akbari.", "tags": ["Veg", "Paneer"], "img": "img/paneer_akbari.jpeg"},
+{"id": 114, "cat": "Paneer", "name": "Paneer Bhurji (Dry) | पनीर भुर्जी (ड्राय)", "price": "Rs. 239", "desc": "Paneer Bhurji Dry.", "tags": ["Veg", "Paneer"], "img": "img/paneer_bhurji_dry.jpeg"},
+{"id": 115, "cat": "Paneer", "name": "Paneer Bhurji Gravy | पनीर भुर्जी करी", "price": "Rs. 219", "desc": "Paneer Bhurji Gravy.", "tags": ["Veg", "Paneer"], "img": "img/paneer_bhurji_gravy.jpeg"},
+{"id": 116, "cat": "Paneer", "name": "Shahi Paneer | शाही पनीर", "price": "Rs. 239", "desc": "Shahi Paneer.", "tags": ["Veg", "Paneer"], "img": "img/shahi_paneer.jpeg"},
+{"id": 117, "cat": "Paneer", "name": "Cheese Paneer Butter Masala | चीज पनीर बटर मसाला", "price": "Rs. 249", "desc": "Cheese Paneer Butter Masala.", "tags": ["Veg", "Paneer"], "img": "img/cheese_paneer_butter_masala.jpeg"},
+{"id": 118, "cat": "Paneer", "name": "Paneer Patiala | पनीर पटीयाला", "price": "Rs. 239", "desc": "Paneer Patiala.", "tags": ["Veg", "Paneer"], "img": "img/paneer_patiala.jpeg"},
+{"id": 119, "cat": "Paneer", "name": "Paneer Hyderabadi | पनीर हैदराबादी", "price": "Rs. 229", "desc": "Paneer Hyderabadi.", "tags": ["Veg", "Paneer"], "img": "img/paneer_hyderabadi.jpeg"},
+{"id": 120, "cat": "Rice", "name": "Steam Rice | स्टीम राईस", "price": "Rs. 119", "desc": "Steam Rice.", "tags": ["Veg", "Rice"], "img": "img/steam_rice.jpeg"},
+{"id": 121, "cat": "Rice", "name": "Plain Rice | प्लेन राईस", "price": "Rs. 119", "desc": "Plain Rice.", "tags": ["Veg", "Rice"], "img": "img/plain_rice.jpeg"},
+{"id": 122, "cat": "Rice", "name": "Jeera Rice | जीरा राईस", "price": "Rs. 129", "desc": "Jeera Rice.", "tags": ["Veg", "Rice"], "img": "img/jeera_rice.jpeg"},
+{"id": 123, "cat": "Rice", "name": "Garlic Jeera Rice | गार्लिक जीरा राईस", "price": "Rs. 129", "desc": "Garlic Jeera Rice.", "tags": ["Veg", "Rice"], "img": "img/garlic_jeera_rice.jpeg"},
+{"id": 124, "cat": "Rice", "name": "Dal Khichdi | दाल खिचडी", "price": "Rs. 129", "desc": "Dal Khichdi.", "tags": ["Veg", "Rice"], "img": "img/dal_khichdi.jpeg"},
+{"id": 125, "cat": "Rice", "name": "Butter Khichdi | बटर खिचडी", "price": "Rs. 129", "desc": "Butter Khichdi.", "tags": ["Veg", "Rice"], "img": "img/butter_khichdi.jpeg"},
+{"id": 126, "cat": "Rice", "name": "Curd Rice | कर्ड राईस", "price": "Rs. 129", "desc": "Curd Rice.", "tags": ["Veg", "Rice"], "img": "img/curd_rice.jpeg"},
+{"id": 127, "cat": "Rice", "name": "Masala Rice | मसाला राईस", "price": "Rs. 129", "desc": "Masala Rice.", "tags": ["Veg", "Rice"], "img": "img/masala_rice.jpeg"},
+{"id": 128, "cat": "Rice", "name": "Namdev Rice | नामदेव राईस", "price": "Rs. 129", "desc": "Namdev Rice.", "tags": ["Veg", "Rice"], "img": "img/namdev_rice.jpeg"},
+{"id": 129, "cat": "Rice", "name": "Veg Pulao | व्हेज पुलाव", "price": "Rs. 169", "desc": "Veg Pulao.", "tags": ["Veg", "Rice"], "img": "img/veg_pulao.jpeg"},
+{"id": 130, "cat": "Rice", "name": "Veg Biryani (Plate) | व्हेज बिर्याणी (प्लेट)", "price": "Rs. 189", "desc": "Veg Biryani Plate.", "tags": ["Veg", "Rice"], "img": "img/veg_biryani_plate.jpeg"},
+{"id": 131, "cat": "Rice", "name": "Veg Biryani (Handi) | व्हेज बिर्याणी (हंडी)", "price": "Rs. 249", "desc": "Veg Biryani Handi.", "tags": ["Veg", "Rice"], "img": "img/veg_biryani_handi.jpeg"},
+{"id": 132, "cat": "Roti", "name": "Tawa Roti | तवा रोटी", "price": "Rs. 20", "desc": "Tawa Roti.", "tags": ["Veg", "Roti"], "img": "img/tawa_roti.jpeg"},
+{"id": 133, "cat": "Roti", "name": "Phulka | फलका", "price": "Rs. 20", "desc": "Phulka Roti.", "tags": ["Veg", "Roti"], "img": "img/phulka.jpeg"},
+{"id": 134, "cat": "Roti", "name": "Tawa Paratha | तवा पराठा", "price": "Rs. 50", "desc": "Tawa Paratha.", "tags": ["Veg", "Roti"], "img": "img/tawa_paratha.jpeg"},
+{"id": 135, "cat": "Roti", "name": "Tawa Butter Paratha | तवा बटर पराठा", "price": "Rs. 50", "desc": "Tawa Butter Paratha.", "tags": ["Veg", "Roti"], "img": "img/tawa_butter_paratha.jpeg"},
+{"id": 136, "cat": "Roti", "name": "Tandoori Roti | तंदूरी रोटी", "price": "Rs. 25", "desc": "Tandoori Roti.", "tags": ["Veg", "Roti"], "img": "img/tandoori_roti.jpeg"},
+{"id": 137, "cat": "Roti", "name": "Tandoori Roti (Wheat) | तंदूरी रोटी (व्हीट)", "price": "Rs. 25", "desc": "Wheat Tandoori Roti.", "tags": ["Veg", "Roti"], "img": "img/tandoori_roti_wheat.jpeg"},
+{"id": 138, "cat": "Roti", "name": "Butter Tandoor Roti | बटर तंदूर रोटी", "price": "Rs. 30", "desc": "Butter Tandoori Roti.", "tags": ["Veg", "Roti"], "img": "img/butter_tandoor_roti.jpeg"},
+{"id": 139, "cat": "Roti", "name": "Butter Tandoor Paratha | बटर तंदूर पराठा", "price": "Rs. 40", "desc": "Butter Tandoor Paratha.", "tags": ["Veg", "Roti"], "img": "img/butter_tandoor_paratha.jpeg"},
+{"id": 140, "cat": "Roti", "name": "Butter Naan | बटर नान", "price": "Rs. 70", "desc": "Butter Naan.", "tags": ["Veg", "Roti"], "img": "img/butter_naan.jpeg"},
+{"id": 141, "cat": "Roti", "name": "Garlic Naan | गार्लिक नान", "price": "Rs. 70", "desc": "Garlic Naan.", "tags": ["Veg", "Roti"], "img": "img/garlic_naan.jpeg"},
+{"id": 142, "cat": "Roti", "name": "Lachha Paratha | लच्छा पराठा", "price": "Rs. 70", "desc": "Lachha Paratha.", "tags": ["Veg", "Roti"], "img": "img/lachha_paratha.jpeg"},
+{"id": 143, "cat": "Roti", "name": "Jwari Bhakar | ज्वारी भाकर", "price": "Rs. 40", "desc": "Jwari Bhakar.", "tags": ["Veg", "Roti"], "img": "img/jwari_bhakar.jpeg"},
+{"id": 144, "cat": "Roti", "name": "Bajri Bhakar | बाजरी भाकर", "price": "Rs. 40", "desc": "Bajri Bhakar.", "tags": ["Veg", "Roti"], "img": "img/bajri_bhakar.jpeg"},
+{"id": 145, "cat": "Roti", "name": "Make Di Roti | मके दि रोटी", "price": "Rs. 40", "desc": "Make Di Roti.", "tags": ["Veg", "Roti"], "img": "img/make_di_roti.jpeg"},
+{"id": 146, "cat": "Mineral Water", "name": "Kinley Water | किनले वॉटर", "price": "Rs. 25", "desc": "Kinley Mineral Water.", "tags": ["Veg", "Mineral Water"], "img": "img/kinley_water.jpeg"},
+{"id": 147, "cat": "Mineral Water", "name": "Bailley Water | बेली वॉटर", "price": "Rs. 25", "desc": "Bailley Mineral Water.", "tags": ["Veg", "Mineral Water"], "img": "img/bailley_water.jpeg"},
+{"id": 148, "cat": "Papad", "name": "Roast Papad | रोस्ट पापड", "price": "Rs. 25", "desc": "Roast Papad.", "tags": ["Veg", "Papad"], "img": "img/roast_papad.jpeg"},
+{"id": 149, "cat": "Papad", "name": "Plain Papad Fry | प्लेन पापड फ्राय", "price": "Rs. 30", "desc": "Plain Papad Fry.", "tags": ["Veg", "Papad"], "img": "img/plain_papad_fry.jpeg"},
+{"id": 150, "cat": "Papad", "name": "Masala Papad | मसाला पापड", "price": "Rs. 35", "desc": "Masala Papad.", "tags": ["Veg", "Papad"], "img": "img/masala_papad.jpeg"},
+{"id": 151, "cat": "Papad", "name": "Nabili Papad | नागिली पापड", "price": "Rs. 35", "desc": "Nabili/Nagili Papad.", "tags": ["Veg", "Papad"], "img": "img/nabili_papad.jpeg"},
+{"id": 152, "cat": "Thali", "name": "Punjabi Tadka Unlimited Thali | पंजाबी तडका अनलिमिटेड थाळी", "price": "Rs. 199", "desc": "Matar Paneer, Chana Masala, Dal Makhani, Chapati, Tandoor Roti, Jeera Rice, Salad, Papad, Boondi Raita, Sweet, Punjabi Special Lassi.", "tags": ["Veg", "Thali"], "img": "img/punjabi_tadka_unlimited_thali.jpeg"},
+{"id": 153, "cat": "Thali", "name": "Sadi Thali | सादी थाली", "price": "Rs. 150", "desc": "Seasonal Sabji + 4 Roti (Tawa/Tanduri) + Dal + Chawal + Achar + Papad.", "tags": ["Veg", "Thali"], "img": "img/sadi_thali.jpeg"},
+{"id": 154, "cat": "Thali", "name": "Special Thali | स्पेशल थाली", "price": "Rs. 170", "desc": "Paneer Masala + 4 Roti (Tawa/Tanduri) + Dal + Chawal + Achar + Papad.", "tags": ["Veg", "Thali"], "img": "img/special_thali.jpeg"},
+{"id": 155, "cat": "Thali", "name": "Gokul Special Thali | गोकुल स्पेशल थाली", "price": "Rs. 190", "desc": "Kaju Paneer + Seasonal Sabji + 4 Roti (Tawa/Tanduri) + Dal + Chawal + Achar + Papad + 1 Sweet.", "tags": ["Veg", "Thali"], "img": "img/gokul_special_thali.jpeg"},            
 
 
-
-
-          
+     
    
     ];
         
